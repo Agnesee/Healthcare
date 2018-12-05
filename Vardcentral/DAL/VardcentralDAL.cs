@@ -52,7 +52,6 @@ namespace Vardcentral.DAL
         }
         public List<Employee> GetAllEmployees()
         {
-            //maybe here
             return db.Employees.ToList();
         }
 
@@ -63,9 +62,6 @@ namespace Vardcentral.DAL
 
         public List<Patient> GetAllPatients()
         {
-
-            //maybe here
-
             return this.db.Patients.ToList();
         }
 
